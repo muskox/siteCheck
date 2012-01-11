@@ -19,7 +19,7 @@ case $1 in
 	exit
 esac
 
-site=`curl -sI $1 | grep Server`
+site=`curl -sLI $1 | grep Server`
 
 if [ $? = 1 ]; then
 
