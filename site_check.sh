@@ -7,7 +7,7 @@
 # inputs:	website URL
 #
 # usage:
-#	./site_checker.sh scottpustay.com
+#	./site_check.sh scottpustay.com
 #
 # Will return if the site is up or down.
 #
@@ -15,7 +15,7 @@
 
 case $1 in
 \-h|\-\-help|\-\?)
-	echo "usage: ./site_checker.sh sitename.tld"
+	echo "usage: ./site_check.sh sitename.tld"
 	exit
 esac
 
