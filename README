@@ -1,6 +1,6 @@
 siteCheck is a command line tool to tell you if your site is up.
 
 Example of use:
-perl siteCheck.pl scottpustay.com
+./site_check.sh scottpustay.com
 
 This will return with a message telling you if the site is up or down.
